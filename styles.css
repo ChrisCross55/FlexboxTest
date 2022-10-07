@@ -10,7 +10,12 @@ a:link {
     text-decoration: none;
     color:red;
     font-weight: bold;
+    transition-duration: .5s;
 
+}
+
+a:hover {
+    border: 5px solid red;
 }
 
 .navbar {
@@ -20,15 +25,16 @@ a:link {
     color:red;  
     justify-content: space-between;
     align-items:center;
+    padding-left:200px; 
+    padding-right:200px;
 
 }
 
 .title {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     padding:5px;
     border: 10px solid red;
-    margin-left:3em;
 }
 
 .links {
@@ -36,31 +42,108 @@ a:link {
     padding:10px;
     margin: 10px;
     text-decoration: none;
+    font-size: large;
+    
     
 }
 
 .link {
     margin: 10px;
     color: red;
-    list-style: none;
-    text-decoration: none;
+    
 }
 
 .h1 {
     display:flex;
     background-color: yellow;
+    color:red;
+    font-weight: bold;
+    flex-wrap:nowrap;
 
-
+    justify-content: space-between;
+    align-items: center;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom: 50px;
 
 }
 
-.moss {
+.p1 {
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    align-items: flex-start;
+    line-height: 3em;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+.bigtext {
+    font-size: xx-large;
+    align-self: flex-start;
+}
+
+.smalltext {
+    font-size: 18px;
+}
+
+button {
+    background-color: rgb(55, 146, 225);
+    color: #fff;
+    border: 5px solid rgb(39, 41, 156);
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    transition-duration: 0.6s;
+
+}
+
+button:hover{
+    background-color: rgb(39, 41, 156);
+    cursor: pointer;
     
 }
 
-.h2 {
-    display:flex;
+.moss img {
+    flex-shrink:1;
+    max-width: 100%;
+    
+}
 
+.ex {
+    display:flex;
+    background-color: rgb(55, 146, 225);
+    flex-direction: column;
+    
+
+}
+
+.h2-header { 
+    font-size:xx-large;
+    color: #fff;
+    align-self:center;
+    font-weight: bold;
+    padding:20px;
+}
+
+
+
+.photos img {
+
+    
+    max-width: 600px;
+    padding: 20px;
+    width:90%;
+
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: flex-start;
+    margin: ;
 }
 
 .h3 {
