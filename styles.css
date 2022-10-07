@@ -2,8 +2,10 @@
     margin:0;
     padding:0;
     font-family: Kalam, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    
+body {
+    background-color: rgb(250, 226, 93);
 }
 
 a:link {
@@ -11,12 +13,13 @@ a:link {
     color:red;
     font-weight: bold;
     transition-duration: .5s;
-
 }
 
 a:hover {
     border: 5px solid red;
 }
+
+
 
 .navbar {
     display:flex; 
@@ -27,7 +30,6 @@ a:hover {
     align-items:center;
     padding-left:200px; 
     padding-right:200px;
-
 }
 
 .title {
@@ -43,15 +45,14 @@ a:hover {
     margin: 10px;
     text-decoration: none;
     font-size: large;
-    
-    
 }
 
 .link {
     margin: 10px;
     color: red;
-    
 }
+
+
 
 .h1 {
     display:flex;
@@ -65,7 +66,6 @@ a:hover {
     padding-left:200px;
     padding-right:200px;
     padding-bottom: 50px;
-
 }
 
 .p1 {
@@ -111,12 +111,16 @@ button:hover{
     
 }
 
+
+
 .ex {
     display:flex;
     background-color: rgb(55, 146, 225);
     flex-direction: column;
-    
-
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    flex-wrap: wrap
 }
 
 .h2-header { 
@@ -127,29 +131,82 @@ button:hover{
     padding:20px;
 }
 
-
-
 .photos img {
-
-    
     max-width: 600px;
-    padding: 20px;
-    width:90%;
+    
+    width:100%;
+}
+
+.text {
+    max-width:600px;
+    width:100%;
+    flex:1 1 auto;
+    margin:10px;
+    align-self: center;
+    color: #fff;
+    font-size: large;
+
 
 }
 
 .examples {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: auto;
     align-items: flex-start;
-    margin: ;
+    
 }
+
+
 
 .h3 {
     display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 104, 139);
+    padding:50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
 }
 
-.banner{
+.behind {
+    align-self:flex-end;
+    padding-top:15px;
+    font-size: large;
+}
+
+
+
+.banner {
+    display: flex;
+    height:200px;
+    background-color: rgb(111, 174, 84);
+    justify-content: space-around;
+    align-items: center;
+    margin:75px 150px;
+    border-radius: 8px;
+}
+
+.buytext {
     display:flex;
+    flex-direction: column;
+    padding:50px;
+    font-size: large;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.smallheader {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.buybutton {
+    max-width:300px;
+    width:100%;
+    align-self: center;
+    flex: 0 2 auto;
+    margin:25px
 }
